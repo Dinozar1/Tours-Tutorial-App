@@ -1,0 +1,22 @@
+body
+{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-header
+{
+    margin: 50px auto;
+    width: 300px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.underline
+{
+    border: 3px blue solid;
+    border-radius: 6px;
+    width: 100px;
+    margin: 10px auto 0px auto;
+}

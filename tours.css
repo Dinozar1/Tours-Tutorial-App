@@ -1,0 +1,74 @@
+.section-tour
+{
+    width: 600px;
+    margin: 100px auto;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    background-color: #ededed;
+}
+
+.section-tour img
+{
+    width: 600px;
+    object-fit: cover;
+    height: 400px;
+}
+
+.title-and-price
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.title-and-price header
+{
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
+
+.price
+{
+    background-color: #79ff61;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.tour-text
+{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.show-hide-btn
+{
+    
+    color:blue;
+}
+
+.show-hide-btn:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.delete-btn
+{
+    padding: 5px;
+    display:block;
+    margin: 20px auto;
+    width: 200px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    font-size: 17px;
+}
+
+.delete-btn:hover
+{
+    cursor: pointer;
+}
